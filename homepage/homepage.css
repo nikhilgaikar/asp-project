@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right top, #167d7f, #3e938f, #5da99f, #7ac0b0, #98d7c2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    color: white;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    height: 100%;
+}
+.window{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:550px;
+    width: 450px;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: linear-gradient(to top, #ffffff, #eff1f3, #dee4e4, #d0d6d3, #c6c8c1);
+}
+.heading1{
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+.heading2{
+    margin-top: 0%;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 9%;
+}
+button {
+    display: flex;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Adds smooth transition */
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-btn {
+    background-color: #5acc5e; 
+    color: white;
+    margin-left: 25%;
+}
+
+.login-btn {
+    background-color: #12bff9; 
+    color: white;
+    margin-left: 25%;
+}
+
+button:hover {
+    transform: scale(1.1); /* Makes the button grow on hover */
+}
+h3{
+    font-size: large;
+    font-weight: 325;
+
+}
